@@ -1,0 +1,62 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+img{
+    width: 10%;
+    height: auto;
+    justify-items: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgba(56, 77, 121, 0.993);
+    font-style: bold;
+    font-size: 3em;
+    border: 2px solid rgba(228, 200, 41, 0.897);
+    box-shadow: 10px 5px 5px rgba(228, 200, 41, 0.897);
+}
+.profile-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#pseudo{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    font-style: bold;
+    border: 3px solid rgb(228, 200, 41);
+    border-radius: 10%;
+}
+.actions{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+button:hover{
+    background-color: rgba(25, 184, 212, 0.801);
+}
+p{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: "Itim", cursive;
+    border: 3px ;
+    border-style: dotted;
+    border-radius: 10%;
+    border-color: white;
+}
+@media (max-width:600px){
+    .profile-card{
+        width: 100%;
+    }
+    #avatar{
+        width: 100%;
+    }
+}
+body{
+    background-color: rgba(92, 110, 212, 0.74);
+}
