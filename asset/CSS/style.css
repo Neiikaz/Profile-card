@@ -42,10 +42,8 @@ p{
     text-align: center;
     font-size: 1.3em;
     font-family: "Itim", cursive;
-    border: 3px ;
-    border-style: dotted;
+    border: 3px dotted white;
     border-radius: 10%;
-    border-color: white;
 }
 @media (max-width:600px){
     .profile-card{
