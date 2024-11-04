@@ -11,7 +11,6 @@ h1{
     display: flex;
     justify-content: center;
     color: rgba(56, 77, 121, 0.993);
-    font-style: bold;
     font-size: 3em;
     border: 2px solid rgba(228, 200, 41, 0.897);
     box-shadow: 10px 5px 5px rgba(228, 200, 41, 0.897);
@@ -25,7 +24,6 @@ h1{
 #pseudo{
     color: rgb(255, 255, 255);
     font-size: 2em;
-    font-style: bold;
     border: 3px solid rgb(228, 200, 41);
     border-radius: 10%;
 }
