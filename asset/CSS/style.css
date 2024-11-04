@@ -37,7 +37,7 @@ button:hover{
 }
 p{
     display: flex;
-    width: 30%;
+    width: 50%;
     align-items: center;
     text-align: center;
     font-size: 1.3em;
@@ -51,7 +51,7 @@ p{
         font-size: 0.5em;
     }
     #avatar{
-        width: 65%;
+        width: 55%;
     }
 }
 body{
