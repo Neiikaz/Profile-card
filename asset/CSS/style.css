@@ -44,6 +44,7 @@ p{
     font-family: "Itim", cursive;
     border: 3px dotted white;
     border-radius: 10%;
+    white-space: normal;
 }
 @media (max-width:600px){
     .profile-card{
